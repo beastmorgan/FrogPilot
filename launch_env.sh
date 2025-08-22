@@ -11,5 +11,6 @@ if [ -z "$AGNOS_VERSION" ]; then
 fi
 
 export STAGING_ROOT="/data/safe_staging"
+export FINGERPRINT="TOYOTA COROLLA TSS2 2019"
 
 eval "$(/data/openpilot/frogpilot/system/environment_variables)"
